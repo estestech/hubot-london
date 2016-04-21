@@ -120,3 +120,6 @@ module.exports = (robot) ->
    robot.respond /sleep it off/i, (res) ->
      robot.brain.set 'totalSodas', 0
      res.reply 'zzzzz'
+     
+     robot.hear /school/i, (res) ->
+     res.send "School? SCHOOL? WE DON'T NEED NO STINKIN SCHOOL"

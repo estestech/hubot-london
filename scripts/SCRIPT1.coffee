@@ -12,5 +12,5 @@ module.exports = (robot) ->
     res.send "For more information on Jupiter, visit:https://en.wikipedia.org/wiki/Jupiter"
     
   robot.hear /europa/i, (res) ->
-    res.send "For more information on Europa, visit:https://en.wikipedia.org/wiki/Europar"
+    res.send "For more information on Europa, visit:https://en.wikipedia.org/wiki/Europa"
 

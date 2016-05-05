@@ -13,4 +13,6 @@ module.exports = (robot) ->
     
   robot.hear /europa/i, (res) ->
     res.send "For more information on Europa, visit:https://en.wikipedia.org/wiki/Europa"
-
+  
+  robot.hear /io/i, (res) ->
+    res.send "For more information on IO, visit:https://en.wikipedia.org/wiki/Io(moon)"
